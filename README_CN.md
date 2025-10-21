@@ -9,11 +9,14 @@
 2. CUDA (安装时候自己显卡的CUDA驱动)  
     2.1 CUDA网址 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)  
     根据设备系统版本下载 CUDA Toolkit Installer 并安装即可
+3. (可选) Git  
+    3.1 Git网址 [https://git-scm.com/](https://git-scm.com/)  
   
 注意：使用时实测约耗费7GB左右的显存。
 ## 安装
 1. 下载项目代码
-`git clone https://github.com/reuAC/Tools_DeepSeekOCR`
+`git clone https://github.com/reuAC/Tools_DeepSeekOCR`  
+进入项目目录 `cd Tools_DeepSeekOCR`
 2. 创建当前项目的虚拟环境
 `python -m venv venv`  
 激活虚拟环境
