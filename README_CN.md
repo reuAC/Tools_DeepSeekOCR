@@ -3,8 +3,12 @@
 [ 中文 | [English](./README.md) ]
 ## 系统前提
 在进行安装之前，您需要确保如下依赖已安装  
-1. Python >= 3.9
+1. Python >= 3.9  
+    1.1 Python网址 [https://www.python.org/downloads/release/python-3140/](https://www.python.org/downloads/release/python-3140)  
+    将页面划到最下方，有一名为Files的表格，其中有各个版本的安装文件，如Windows 64位使用 `Windows installer (64-bit)`
 2. CUDA (安装时候自己显卡的CUDA驱动)  
+    2.1 CUDA网址 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)  
+    根据设备系统版本下载 CUDA Toolkit Installer 并安装即可
   
 注意：使用时实测约耗费7GB左右的显存。
 ## 安装
